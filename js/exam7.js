@@ -27,7 +27,7 @@ app7.controller('dogCtrl', function($controller) {
   childCtrl.child.name = "Dog";
 
   // Define a field for the child
-  childCtrl.child.bark = "Wooof";
+  childCtrl.child.bark = "Wooooof";
 
   // You can extend the child controller by declaring your own methods
   childCtrl.child.dogData = function(){
